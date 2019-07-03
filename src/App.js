@@ -5,10 +5,10 @@ import Header from "./components/header";
 import Catalog from "./components/catalog";
 import Footer from "./components/footer";
 
-//css
-import "./assets/css/main.css";
-import "./assets/css/header.css";
-import "./assets/css/footer.css";
+//scss
+import "./assets/scss/main.scss";
+import "./assets/scss/header.scss";
+import "./assets/scss/footer.scss";
 
 function App() {
   const [count, setCount] = useState(0);
